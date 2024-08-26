@@ -1,6 +1,7 @@
 const tool = new Tool("Trapdoor")
 Game.on("initialSpawn",p=>{
   p.addTool(tool)
+  let ownsAsset = await p.ownsAsset(690)
 })
 
 function roundTo(num,rnd) {
