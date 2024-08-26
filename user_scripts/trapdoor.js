@@ -1,5 +1,5 @@
 const tool = new Tool("Trapdoor")
-Game.on("initialSpawn",p=>{
+Game.on("initialSpawn", async(p)=>{
   p.addTool(tool)
   let ownsAsset = await p.ownsAsset(690)
 })
