@@ -11,7 +11,7 @@ function roundTo(num,rnd) {
 }
 
 tool.on("activated",p=>{
-    if (onwsAsset = true) {
+    if (ownsAsset = true) {
       let brick = new Brick(p.position,new Vector3(4,4,8),"#906847")
       Game.newBrick(brick)
       brick.setPosition(new Vector3(roundTo(brick.position.x,4)-2, roundTo(brick.position.y,4)-2, roundTo(brick.position.z,4)))
