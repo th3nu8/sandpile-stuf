@@ -1,9 +1,7 @@
 const tool = new Tool("Door")
-Game.on("playerJoin", async(p) => {
-    let ownsAsset = await p.ownsAsset(690)
-})
 Game.on("initialSpawn",p=>{
   p.addTool(tool)
+    let ownsAsset = await p.ownsAsset(690)
 })
 
 function roundTo(num,rnd) {
