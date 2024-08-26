@@ -1,7 +1,7 @@
 Game.on("playerJoin", async(p) => {
     let ownsAsset = await p.ownsAsset(690)
     if (ownsAsset == false) {
-        p.kick("Buy the beta gamepass to join")
+        p.setAvatar(userId(648))
     }
 })
 function NewBrick(XSize, YSize, ZSize, XPos, YPos, ZPos, Tras, Color) {
