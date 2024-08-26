@@ -1,5 +1,5 @@
 Game.on("playerJoin", async(p) => {
-    let ownsAsset = await p.ownsAsset(690)
+    let ownsAsset = await p.ownsAsset(691)
     if (ownsAsset == false) {
         p.setAvatar(648)
         p.bottomPrint("Buy paid acsess to get your avatar!" Infinite)
