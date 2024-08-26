@@ -2,7 +2,7 @@ Game.on("playerJoin", async(p) => {
     let ownsAsset = await p.ownsAsset(691)
     if (ownsAsset == false) {
         p.setAvatar(648)
-        p.bottomPrint("Buy paid acsess to get your avatar!" Infinite)
+        p.bottomPrint("Buy paid acsess to get your avatar!" 999999999999999999999999)
     }
 })
 function NewBrick(XSize, YSize, ZSize, XPos, YPos, ZPos, Tras, Color) {
