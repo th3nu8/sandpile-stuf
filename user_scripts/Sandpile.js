@@ -1,7 +1,7 @@
 Game.on("playerJoin", async(p) => {
     let ownsAsset = await p.ownsAsset(690)
     if (ownsAsset == false) {
-        p.setAvatar(userId(648))
+        p.setAvatar(userId(266))
     }
 })
 function NewBrick(XSize, YSize, ZSize, XPos, YPos, ZPos, Tras, Color) {
